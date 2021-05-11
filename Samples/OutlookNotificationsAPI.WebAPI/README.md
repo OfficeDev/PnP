@@ -154,7 +154,7 @@ public class PushSubscriptionModel
 # Web API Controller #
 The NotifyController implements a single POST method. Both the validation and notification requests will be sent as POST messages to your Web API.
 
-As for the validation token, it will accept it as an optional parameter. If it’s present in the request, we know that a validation of the URL (Web API) is happening. If not, we can assume that we’re getting a notification from an active subscription.
+As for the validation token, it will accept it as an optional parameter.If it’s present in the request, we know that a validation of the URL (Web API) is happening. If not, we can assume that we’re getting a notification from an active subscription.
 So if a validation token parameter is present, we return it right away in the proper way – by setting the content type header to text/plain and return HTTP 200 as the response code.
 
 As for no present validation token in the request, we can start parsing the request body and look for notifications. 
