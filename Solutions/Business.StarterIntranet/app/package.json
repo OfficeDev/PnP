@@ -65,7 +65,7 @@
     "jquery-ui-dist": "1.12.1",
     "knockout": "3.4.2",
     "knockout-mapping": "2.6.0",
-    "lodash": "4.17.4",
+    "lodash": "4.17.21",
     "moment": "2.18.1",
     "office-ui-fabric-react": "4.30.0",
     "pubsub-js": "1.5.6",
