@@ -61,7 +61,7 @@
     "i18next": "8.0.0",
     "ical-toolkit": "1.0.9",
     "immutability-helper": "^2.6.5",
-    "jquery": "3.2.1",
+    "jquery": "3.5.0",
     "jquery-ui-dist": "1.12.1",
     "knockout": "3.4.2",
     "knockout-mapping": "2.6.0",
